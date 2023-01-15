@@ -460,7 +460,7 @@ textarea:focus {
     }
 
     .preferences .common-headings {
-        font-size: 29px;
+        font-size: 26px;
     }
 
     .content {
@@ -492,18 +492,20 @@ textarea:focus {
         max-width: 400px;
     }
 
-    /* .contact-us .contact-content .contact-left-content {
-        width: 90%;
+    .contact-us .contact-content .contact-left-content {
+        width: 60%;
     }
 
-    .contact-us .contact-content .contact-right-content {
+    /* .contact-us .contact-content .contact-right-content {
         width: 90%;
     } */
 
     .contact-us .list-content ul li {
         text-align: left;
     }
-
+    .contact-content input[type="text"], textarea {
+        max-width: 93%;
+    }
     /* sponsor section style */
     .sponsors-icon {
         flex-direction: column;
