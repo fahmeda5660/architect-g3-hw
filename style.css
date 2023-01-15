@@ -460,9 +460,13 @@ textarea:focus {
     }
 
     .preferences .common-headings {
-        font-size: 26px;
+        font-size: 24px;
+        line-height: 35px;
     }
-
+    .preferences .btn-primary.prefrences-btn .btn-style {
+        font-size: 38px;
+        line-height: 39px;
+    }
     .content {
         text-align: center;
     }
