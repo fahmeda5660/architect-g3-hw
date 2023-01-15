@@ -1,3 +1,4 @@
+
 /* common css */
 * {
     font-family: 'Work Sans', sans-serif;
@@ -66,7 +67,7 @@ li a{
     line-height: 26px;
     color: #424242;
 }
-.responsive-nav-bar{
+.responsive-navbar{
     display: none;
 }
 /* banner part start */
@@ -170,7 +171,6 @@ li a{
 /* facts style start */
 .facts-text{
     max-width: 542px;
-    margin: 0 auto;
 }
 .facts .facts-content{
     display: flex;
@@ -195,8 +195,82 @@ li a{
     transform: rotate(360deg);
 }
 .facts .facts-no{
-    margin: 8px 0;
+    margin: 8p
 }
+/* contact partx 0; */
+.contact-us .contact-info{
+    text-align: center;
+    }
+.contact-us .contact-info .common-text{
+        max-width: 540px;
+        margin: 40px auto;
+    }
+    .contact-us .contact-content{
+        display: flex;
+        gap: 50px;
+    }
+    .contact-us .contact-content .list-content{
+        margin: 30px 30px 30px 0px;
+    }
+    .contact-us .contact-content .contact-left-content{
+        width: 40%;
+        background: #FF900E;
+        border-radius: 5px;
+    }
+    .contact-us .contact-content .map-image{
+        text-align: center;
+    }
+    .contact-us .contact-content .contact-left-content .map-image img{
+        width: 91%;
+    }
+    .contact-us .contact-content .contact-right-content {
+        width: 60%;
+        background: #fff;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+        border-radius: 8px;
+        padding: 30px 40px;
+    }
+    .contact-us .contact-content .contact-right-content ::-webkit-input-placeholder {
+    color: #FF900E;
+    }
+    
+    .contact-us .list-content ul li {
+        margin: 20px 0;
+    }
+    .contact-us .list-content ul li i {
+        color: #ffffff;
+    }
+    .contact-us .list-content ul li span{
+        color: #ffffff;
+        font-size: 12px;
+    }
+    .contact-us .list-content ul li .fa-solid {
+        margin-right: 20px;
+    }
+    
+    .contact-content input[type="text"],
+    textarea {
+        width: 95%;
+        padding: 12px 10px;
+        margin: 8px 0px;
+        display: block;
+        border: 1px solid rgb(105, 95, 95);
+        border-radius: 4px;
+    }
+    .contact-content input[type="text"]:focus,
+    textarea:focus {
+        outline: none;
+    }
+    .contact-content input[type="submit"] {
+        width: 100%;
+        background-color: #FF900E;
+        color: white;
+        padding: 20px 25px;
+        margin: 8px 0px;
+        border: none;
+        border-radius: 4px;
+    }
+    
 /* Sponsor part styles */
 .sponsors{
     text-align: center;
@@ -273,6 +347,8 @@ li a{
       }
       .banner-img{
         background-size:500px auto;
+        margin: -65px 0px;
+
       }
       .header-title {
         font-size: 36px;
@@ -307,13 +383,27 @@ li a{
       .content {
         text-align: center;
     }
+    /* fact part style */
       .facts .facts-content {
         flex-direction: column;
+    }
+    .facts-text{
+        margin: 0 auto;
     }
       .facts .facts-content .facts-item{
         margin: 20px 170px;
         padding: 20px 15px;
     }
+    /* contact us style */
+    
+    .contact-us .contact-content{
+        flex-direction: column;
+       align-items: center;
+    }
+    .contact-us .contact-info .common-text {
+        max-width: 400px;
+    }
+    /* sponsor section style */
     .sponsors-icon{
         flex-direction: column; 
         /* justify-content: center; */
