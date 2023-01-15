@@ -492,16 +492,15 @@ textarea:focus {
         max-width: 400px;
     }
 
-    .contact-us .contact-content .contact-left-content {
+    /* .contact-us .contact-content .contact-left-content {
         width: 90%;
     }
 
     .contact-us .contact-content .contact-right-content {
         width: 90%;
-    }
+    } */
 
     .contact-us .list-content ul li {
-        margin: 20px 130px;
         text-align: left;
     }
 
